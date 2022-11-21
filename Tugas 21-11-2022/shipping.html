@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Form</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <img src="./assets/logo.png"/>
+        <div class="d-flex">
+            <a class="nav-link text-dark" href="">Home</a>
+            <a class="nav-link text-dark" href="">Catalog</a>
+            <a class="nav-link text-dark" href="">Delivery</a>
+            <a class="nav-link text-dark" href="">Rewards</a>
+            <a > <img src="./assets/cart-icon.png"> </a> 
+            
+        </div>
+      </nav>
+    
+    <div class="flex-d flex-column p-2 mx-3">
+        <a>Home </a> /
+        <a>Office Room </a> /
+        <a class="text-dark" href="./home.html">Details</a> /
+        <a> <b>Shipping</b> </a>
+    </div>
+
+
+    <!-- <div>
+    <img src="https://nebulab.com/assets/blog/img/posts/maintenance-page-with-apache-and-capistrano/maintenance_page.jpg" class="d-flex justify-content-center p-5 my-5" alt="">   
+    </div> -->
+    <div>
+        <div class="alert alert-dismissible fade show d-none" role="alert" id="berhasil">
+            <center>
+                <h1 id="hasil1"></h1>
+                <p id="hasil2"></p>
+                <a type="button" class="btn btn-outline-danger" href="./home.html">Back</a>
+            </center>
+        </div>
+    </div>
+
+    <div class="border border-danger p-5 mt-5 mb-5 rounded" id="shipform" style="width: fit-content; margin:auto">
+    <form>
+            <h3 class="text-center mb-5">Shipping Form</h3>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="first">First Name</label>
+                    <input type="text" class="form-control mb-2" id="first" placeholder="Enter your first name" required>
+                  <!-- </div>
+                  <div class="form-group col-md-6"> -->
+                    <label for="last">Last Name</label>
+                    <input type="text" class="form-control mb-2" id="last" placeholder="Enter your last name" required>
+                  <!-- </div>
+                  <div class="form-group col-md-6"> -->
+                    <label for="email">Email Adress</label>
+                    <input type="email" class="form-control mb-2" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" class="form-control mb-2" id="phone" placeholder="Enter your phone number" required>
+                  <!-- </div>
+                  <div class="form-group col-md-6"> -->
+                    <label for="cits">City</label>
+                    <input type="text" class="form-control mb-2" id="cits" placeholder="Enter your city" required>
+                  <!-- </div>
+                  <div class="form-group col-md-6"> -->
+                    <label for="postal">Postal Code</label>
+                    <input type="text" class="form-control mb-2" id="postal" placeholder="Enter postal code" required>
+                  </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="adress">Adress</label>
+                <textarea style="overflow: auto;" cols="50" rows="4" id="adress" placeholder="Enter your adress" required></textarea>
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-danger" id="kirim">Submit</button> 
+        </form>
+    </div>
+
+    <div>
+        <center>
+            <img src="./assets/logo.png" alt="" />    
+        </center>
+        <br><br>
+
+        <div class="d-flex justify-content-around">
+            <div>
+                <b>Overview</b>
+                <p>Shipping</p>
+                <p>Refund</p>
+                <p>Promotion</p>
+            </div>
+
+            <div >
+                <b>Company</b>
+                <p>About</p>
+                <p>Career</p>
+                <p>Contact Us</p>
+            </div>
+
+            <div >
+                <b>Explore</b>
+                <p>Terms & Condition</p>
+                <p>Privacy Policy</p>
+                <p>For Developer</p>
+            </div>
+        </div>
+        <br><br>
+        <center>
+            <p>Copyright 2021 • All Right Reserved LuxSpace by BuildWith Angga </p>
+        </center>
+    </div>
+</body>
+</html>
