@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#btnAlert").click(function(e){
+    // $("#btnAlert").click(function(e){
+        $("#form").submit(function(e){
         e.preventDefault();
         window.scrollTo(0,0);
         $("#divAlert").removeClass("d-none");
